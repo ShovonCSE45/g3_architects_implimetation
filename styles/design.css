@@ -1,0 +1,450 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section Navbar portion styling */
+.header_section_full {
+    height: 970px;
+    width: 100%;
+    /* border: 4px solid green; */
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* navbar left section */
+.navbar_area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_left {
+    position: absolute;
+    width: 302px;
+    height: 53px;
+    left: 160px;
+    top: 20px;
+}
+
+.navbar_left_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 53px;
+    text-align: center;
+}
+
+/* navbar right section */
+.navbar_right {
+    position: absolute;
+    width: 477px;
+    height: 26px;
+    left: 803px;
+    top: 33px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.navbar_right p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+
+}
+
+/* top middle section design  */
+.top_middle {
+    position: absolute;
+    width: 530px;
+    height: 200px;
+    left: 390px;
+    top: 152px;
+    /* border: 2px solid green; */
+
+}
+
+.top_middle h4 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 55px;
+    text-align: center;
+    color: #131313;
+
+}
+
+.top_middle p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-top: 25px;
+
+}
+
+.button_primary_1 {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 560px;
+    top: 363px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 7px;
+}
+
+/* Header Image section design */
+.header_image_section {
+    position: absolute;
+    height: 450px;
+    width: 890px;
+    /* border: 4px solid red; */
+    top: 467px;
+    left: 200px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.header_image_section img {
+    height: 450px;
+    width: 890px;
+
+}
+
+
+/* ######## feature section */
+.feature_containers {
+    display: flex;
+    margin-top: 50px;
+}
+
+.featuress {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    height: 450px;
+    width: 450px;
+    /* border: 2px solid green; */
+    margin-left: 230px;
+
+
+}
+
+.feature {
+    height: 220px;
+    width: 220px;
+}
+
+.feature img {
+    height: 220px;
+    width: 220px;
+
+}
+
+.feature img:hover {
+    border: 1px solid rgb(21, 211, 21);
+}
+
+.feature_text {
+    height: 230px;
+    width: 400px;
+    /* border: 2px solid red; */
+    margin-left: 35px;
+    margin-top: 125px;
+
+}
+
+.feature_text h4 {
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.feature_text #first {
+    color: #727272;
+
+}
+
+.feature_text #middle {
+    color: #131313;
+
+}
+
+.feature_text #last {
+    color: #FF900E;
+
+}
+
+.feature_text p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 12px;
+
+}
+
+.primary_button_2 {
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 7px;
+}
+
+/* Love and Enjoy section designing */
+.love_and_enjoy_container {
+    display: flex;
+    width: 900px;
+    height: 590px;
+    /* border: 4px solid green; */
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.love_and_enjoy_left {
+    height: 500px;
+    width: 360px;
+    /* border: 2px solid red; */
+    margin-top: 22px;
+
+
+}
+
+.love_and_enjoy_left h5 {
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 10px;
+    border-left: 4px solid #FF900E;
+    color: #131313;
+}
+
+.love_and_enjoy_left p {
+    font-size: 12px;
+    color: #727272;
+    margin-top: 7px;
+}
+
+.love_iteam {
+    width: 350px;
+    height: 80px;
+    margin-top: 20px;
+    padding-left: 10px;
+
+}
+
+.love_iteam h6 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.love_and_enjoy_right {
+    height: 550px;
+    width: 490px;
+    /* border: 2px solid violet; */
+    margin-left: 54px;
+    border-radius: 8px;
+
+}
+
+.love_and_enjoy_right img {
+    height: 540px;
+    width: 490px;
+}
+
+.experience_btn {
+    width: 200px;
+    height: 100px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 35px;
+
+
+}
+
+/* Some fact portion css styling*/
+.some_facts {
+    height: 92px;
+    width: 400px;
+    /* border: 2px solid green; */
+    margin-left: 200px;
+    margin-top: 64px;
+}
+
+.some_facts h4 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.some_facts p {
+    font-size: 12px;
+    color: #727272;
+}
+
+/* design of each fact */
+.facts_container {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.fact {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sponsport section design */
+.out_sponspors {
+    width: 450px;
+    height: 80px;
+    /* border: 2px solid gray; */
+    margin-left: 440px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.out_sponspors h4 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.out_sponspors p {
+    font-size: 12px;
+    color: #727272;
+}
+
+/* Sponspors container section design */
+.sponspors_container {
+    display: flex;
+}
+
+.sponspor {
+    height: 40px;
+    width: 120px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border: 2px solid rebeccapurple;
+}
+
+.sponspor img {
+    height: 40px;
+    width: 120px;
+
+}
+/* extra footer section css design */
+.footer_container {
+    display: flex;
+    width: 1258px;
+    height: 300px;
+    /* border: 3px solid green; */
+    margin-top: 110px;
+    background-color: #151414;
+}
+
+.foorer_left {
+    width: 400px;
+    height: 235px;
+    /* border: 2px solid gray; */
+    margin-top: 55px;
+    margin-left: 130px;
+    margin-right: 300px;
+}
+
+.foorer_left h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #F8F8F8;
+    margin-bottom: 10px;
+
+}
+
+.foorer_left p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer_right {
+    width: 260px;
+    height: 150px;
+    /* border: 2px solid red; */
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+.footer_right h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+
+}
+
+.footer_right input {
+    font-size: 18px;
+    color: #F3F3F3;
+    width: 320px;
+    height: 34px;
+    margin-bottom: 10px;
+    background-color: #151414;
+    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.subscrib_button {
+    width: 150px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    /* color: #F15B22; */
+    background: #FF900E;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* Footer main section css design */
+.footer_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 980px;
+    height: 70px;
+    margin-left: 170px;
+    margin-top: 80px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    /* border: 2px solid greenyellow; */
+}
+.footer_section p {
+    font-size: 12px;
+    text-align: center;
+    color: #424242;
+
+}
