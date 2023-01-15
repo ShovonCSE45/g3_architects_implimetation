@@ -463,7 +463,54 @@
     color: #424242;
 
 }
+.hide {
+    display: none;
+}
 
 /* ########### Responsive Creation part of this project
 We will use @media query for creating responsive this project properly. */
 /* This Responsive part have to be includ for Mobile devices */
+
+@media screen and (max-width: 576px) {
+  .facts_container,
+  .sponspors_container,
+  .footer_container,
+  .feature_containers
+   {
+    flex-direction: column;
+    margin-left: 0px;
+    gap: 10px;
+  }
+  .out_sponspors {
+    margin-left: 0px;
+  }
+  .footer_section {
+    position: relative;
+    top: 200px;
+
+  }
+  .some_facts {
+    margin-left: 0px;
+  }
+  .love_and_enjoy_container {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-bottom: 30px; 
+  }
+  .featuress {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .top_middle {
+    margin-left: 0px;
+  }
+  .top_middle h4 {
+    margin-left: 0px;
+  }
+  .navbar_right {
+    flex-direction: column;
+  }
+  .navbar_area {
+    flex-direction: column;
+  }
+    
+}
