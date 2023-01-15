@@ -249,9 +249,9 @@
 }
 
 .love_and_enjoy_right {
-    height: 550px;
+    height: 540px;
     width: 490px;
-    /* border: 2px solid violet; */
+    border: 2px solid violet;
     margin-left: 54px;
     border-radius: 8px;
 
@@ -263,16 +263,21 @@
 }
 
 .experience_btn {
-    width: 200px;
-    height: 100px;
+    position: relative;
+    width: 180px;
+    height: 80px;
     background: #FF900E;
     border-radius: 8px;
     color: white;
-    border: none;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 32px;
+    border: none;
+    bottom: 82px;
 
-
+}
+.love_and_enjoy_right #special_word {
+    font-weight: 450;
+    font-size: 24px;
 }
 
 /* Some fact portion css styling*/
@@ -313,6 +318,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform 2.5s;
+}
+.facts_container .fact:hover {
+    transform: translateY(40px) rotate(45deg) scale(1.25);
+    
 }
 
 /* Sponsport section design */
@@ -346,12 +356,17 @@
     width: 120px;
     margin-left: 110px;
     margin-top: 50px;
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
 }
 
 .sponspor img {
     height: 40px;
     width: 120px;
+    transition: transform 2.5s;
+
+}
+.sponspors_container .sponspor img:hover {
+    transform: translateY(40px) rotate(45deg) scale(1.25);
 
 }
 /* extra footer section css design */
